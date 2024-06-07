@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-c-center {
+    align-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.d-block {
+    display: block;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    ;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.w-1 {
+    width: 8.33%;
+}
+
+.w-2 {
+    width: 16.66%;
+}
+
+.w-3 {
+    width: 25%;
+}
+
+.w-4 {
+    width: 33.33%;
+    padding: 10px;
+}
+
+.w-5 {
+    width: 41.66%;
+}
+
+.w-6 {
+    width: 50%;
+    padding: 12px;
+}
+
+.w-7 {
+    width: 58.33%;
+}
+
+.w-8 {
+    width: 66.66%;
+    padding: 10px;
+}
+
+.w-9 {
+    width: 75%;
+}
+
+.w-10 {
+    width: 83.33%;
+}
+
+.w-11 {
+    width: 91.66%;
+}
+
+.w-12 {
+    width: 100%;
+}
+
+@font-face {
+    font-family: "Roboto", serif;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf)
+}
+
+.border {
+    border: 1px solid rgb(88, 58, 58);
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.box {
+    width: 800px;
+    height: 640px;
+    border: 3px solid black;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+    border-radius: 12px;
+}
+
+.box .c-name {
+    border: 1px solid rgb(88, 58, 58);
+    padding: 5px;
+    font-size: 23px;
+    font-weight: 900;
+    text-align: center;
+    color:red;
+}
+
+.e-detailes {
+    /* padding: 30px 0px; */
+    border: 1px solid rgb(88, 58, 58);
+}
+
+.e-detailes p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h3 {
+    text-align: center;
+    padding: 5px;
+    color: green;
+}
+
+.s-det p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.a-word p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#word {
+    text-transform: capitalize;
+}
+
+body{
+    background-image: url(i.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

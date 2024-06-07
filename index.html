@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Slip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container row justify-center align-center vh-100">
+        <div class="box">
+            <div class="w-12">
+                <div class="c-name">RnW Consultancy Services</div>
+            </div>
+            <div class="w-12">
+                <div class="c-name">Salary Slip for June 2024</div>
+            </div>
+            <div class="e-detailes ">
+                <div class="w-12 row">
+                    <div class="w-7 row ">
+                        <div class="w-6" >
+                            <p style="font-weight: 900;">Name</p>
+                            <p style="font-weight: 900;">Emp No.</p>
+                            <p style="font-weight: 900;">Designation</p>
+                        </div>
+                        <div class="w-6">
+                            <p>Chaudhari Yash</p>
+                            <p>0420</p>
+                            <p>Manager</p>
+                        </div>
+                    </div>
+                    <div class="w-5 row">
+                        <div class="w-6">
+                            <p style="font-weight: 900;">Department</p>
+                            <p style="font-weight: 900;">Bank Name</p>
+                            <p style="font-weight: 900;">A/C No.</p>
+                        </div>
+                        <div class="w-6">
+                            <p>Account</p>
+                            <p>RNW</p>
+                            <p>12345678901</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="heading">
+                <div class="w-12 row ">
+                    <div class="w-7 border">
+                        <h3>Earnings</h3>
+                    </div>
+                    <div class="w-5 border">
+                        <h3>Deductions</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="s-det">
+                <div class="w-12 row">
+                    <div class="w-7 border row">
+                        <div class="w-8">
+                            <p>Basic Salary</p>
+                            <p>House Rent Allowances</p>
+                            <p>Dearness Allowances</p>
+                            <p><br></p>
+                            <p><br></p>
+                            <p>Gross Salary</p>
+                        </div>
+                        <div class="w-4">
+                            <p id="basicSalary"></p>
+                            <p id="hra"></p>
+                            <p id="da"></p>
+                            <p><br></p>
+                            <p><br></p>
+                            <p id="gross" style="font-weight: 900;"></p>
+                        </div>
+                    </div>
+                    <div class="w-5 border row">
+                        <div class="w-8">
+                            <p>EPF</p>
+                            <p>Health Insurance</p>
+                            <p>Professnional Tax</p>
+                            <p><br></p>
+                            <p><br></p>
+                            <p>Total Deductions</p>
+                        </div>
+                        <div class="w-4">
+                            <p id="pf"></p>
+                            <p id="hi"></p>
+                            <p id="pt"></p>
+                            <p><br></p>
+                            <p><br></p>
+                            <p id="deduction" style="font-weight: 900;"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-12 row ">
+                <div class="w-6 border">
+                    <h3>Net Pay</h3>
+                </div>
+                <div class="w-6 border">
+                    <h3 id="net"></h3>
+                </div>
+            </div>
+            <div class="a-word">
+                <div class="w-12 row">
+                    <div class="w-6 border">
+                        <p>Amount In Words</p>
+                    </div>
+                    <div class="w-6 border">
+                        <p id="word"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
